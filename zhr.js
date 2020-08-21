@@ -1,3 +1,5 @@
+var cssInnerHTML = "<link rel='stylesheet' href='https://github.com/GiriGiriEye/MyHTML/raw/master/zhr.css'></link>";
+$("head").append(cssInnerHTML);
 $(function(){
 	var buttons = $(".collapse_btn");
 	var divs = $(".collapse_div");
