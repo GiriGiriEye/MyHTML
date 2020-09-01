@@ -8,6 +8,24 @@
 .title-large {color:red;font-size:24px;}
 .title-medium {color:purple;font-size:20px;}
 .title-first {font-size:24px;font-weight:700;}
+#myTable
+{
+border-collapse:collapse;
+border:1px solid #ead5bc;
+table-layout: fixed;
+}
+#myTable th
+{
+background-color:#ffedc3
+font-size:1.1em;
+font-weight:700;
+padding-top:5px;
+padding-bottom:4px;
+}
+#myTable td
+{
+padding:3px 3px 5px 5px;
+}
 
 #waifu-toggle {
 	background-color: #fa0;
