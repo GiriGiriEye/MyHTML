@@ -203,7 +203,7 @@ function loadExternalResource(url, type) {
             fallSpeed: 1,
             maxSize: 14,
             minSize: 5,
-            newOn: 15,
+            newOn: 10,
             swayAnimations: ['sway-0', 'sway-1', 'sway-2', 'sway-3', 'sway-4', 'sway-5', 'sway-6', 'sway-7', 'sway-8']
         };
 
@@ -241,9 +241,10 @@ function loadExternalResource(url, type) {
 
                 // Apply Event Listener to remove petals that reach the bottom of the page
                 petal.prefixedEvent('AnimationEnd', function () {
-                    if ( ! elementInViewport(this)) {
+                    // if ( ! elementInViewport(this)) {
+                        // console.log("Anim end");
                         $(this).remove();
-                    }
+                    // }
                 })
                 // Apply Event Listener to remove petals that finish their horizontal float animation
                 .prefixedEvent('AnimationIteration', function (ev) {
@@ -254,6 +255,7 @@ function loadExternalResource(url, type) {
                         ) &&
                         ! elementInViewport(this)
                     ) {
+                        // console.log("Anim ite");
                         $(this).remove();
                     }
                 })
