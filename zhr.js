@@ -77,7 +77,6 @@ function initHighLevelWidget(){
 	// 加载 waifu.css live2d.min.js waifu-tips.js
 	if (screen.width >= 768) {
 		Promise.all([
-			loadExternalResource("https://cdn.jsdelivr.net/gh/GiriGiriEye/MyHTML@latest/zhr.css", "css"),
 			loadExternalResource("https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css", "css"),
 			loadExternalResource(live2d_path + "live2d.min.js", "js"),
 			loadExternalResource(live2d_path + "waifu-tips.js", "js")
@@ -295,3 +294,7 @@ function loadExternalResource(url, type) {
         }
     };
 }(jQuery));
+
+$(document).ready(function(){
+    $('head').append("<link href='https://cdn.jsdelivr.net/gh/GiriGiriEye/MyHTML@latest/zhr.css' rel='stylesheet' type='text/css'></link>");
+});
