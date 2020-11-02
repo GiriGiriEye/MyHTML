@@ -2,7 +2,7 @@ const live2d_path = "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@la
 
 $(function(){
 	var buttons = $(".collapse_btn");
-	var divs = $(".collapse_div");
+	var divs = $(".collapse_content");
 
 	for(var i = 0; i < buttons.length; i++){
 		$(divs[i]).hide();
