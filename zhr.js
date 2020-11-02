@@ -296,5 +296,5 @@ function loadExternalResource(url, type) {
 }(jQuery));
 
 $(document).ready(function(){
-    $('head').append("<link href='https://cdn.jsdelivr.net/gh/GiriGiriEye/MyHTML@latest/zhr.css' rel='stylesheet' type='text/css'></link>");
+    $('head').append("<link href='https://cdn.jsdelivr.net/gh/GiriGiriEye/MyHTML@master/zhr.css' rel='stylesheet' type='text/css'></link>");
 });
