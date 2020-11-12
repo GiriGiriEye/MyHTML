@@ -8,6 +8,16 @@
 .title-large {color:red;font-size:24px;}
 .title-medium {color:purple;font-size:20px;}
 .title-first {font-size:24px;font-weight:700;}
+.white {color:white;}
+.brown {color:brown;}
+.black {color:black;}
+.brown {color:brown;}
+.darkgreen {color:darkgreen;}
+.chocolate {color:chocolate;}
+.coral {color:coral;}
+.deepskyblue {color:deepskyblue;}
+.purple {color:purple;}
+.grey {color:grey;}
 #myTable
 {
 border-collapse:collapse;
