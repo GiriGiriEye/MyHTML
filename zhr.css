@@ -37,6 +37,14 @@ padding-bottom:4px;
 border:1px solid #ead5bc;
 padding:3px 3px 5px 5px;
 }
+#myTable tr:nth-child(even) 
+{ 
+background-color: #fff8e7;
+}
+#myTable tr:nth-child(odd) 
+{ 
+background-color: #fff0c;
+}
 
 #waifu-toggle {
 	background-color: #fa0;
